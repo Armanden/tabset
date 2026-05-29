@@ -38,7 +38,7 @@ class GuitarTabEditor:
         main_frame = tk.Frame(self.root, bg='#1a1a2e')
         main_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
         
-        title = tk.Label(main_frame, text="🎸 GUITAR TAB EDITOR", 
+        title = tk.Label(main_frame, text="GUITAR TAB EDITOR", 
                       font=('Helvetica', 20, 'bold'),
                       fg='#f39c12', bg='#1a1a2e')
         title.pack(pady=(0, 10))
